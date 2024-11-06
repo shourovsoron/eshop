@@ -1,0 +1,195 @@
+@media (max-width: 991px) {
+
+
+    /* Custom Classes */
+    .text-content {
+
+    }
+
+
+
+    /* Header */
+    .navbar-brand {
+
+    }
+
+    .navbar-brand img {
+
+    }
+
+    .navbar .navbar-nav {
+
+    }
+
+    .navbar .navbar-nav .nav-link {
+
+    }
+
+    .navbar-toggler {
+
+    }
+
+    .navbar-toggler:focus {
+
+    }
+
+    .navbar-toggler-icon {
+        width: 1em;
+        line-height: unset;
+        width: 1em;
+    }
+
+    .navbar-sticky-on {
+
+    }
+
+    .navbar-sticky-on {
+
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon {
+
+    }
+
+
+    /* Hero */
+    #home {
+
+    }
+
+    #home .row {
+
+    }
+
+    #home .home-text {
+
+
+    }
+
+    #home .home-download-btn {
+
+    }
+
+    #home .home-img {
+
+
+    }
+
+    #home .home-img img {
+        max-width: 60%;
+
+    }
+
+    #home .home-text {}
+
+    /* Counter Section */
+
+    .single-counter span {
+
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 767px) {
+    h2 {
+
+    }
+
+
+    .section-gap {
+
+    }
+
+
+    .navbar .navbar-brand img {
+
+    }
+
+
+    #home {
+
+    }
+
+    #home .home-text h2 {
+
+    }
+
+    #home .home-download-btn {
+
+
+    }
+
+    #home .home-img {
+
+    }
+
+
+    .single-counter .counter-inner {
+
+    }
+
+
+    .single-counter span {
+
+
+    }
+
+
+    .promo_section .section-heading h2 {
+
+    }
+
+
+    .swiper-button-prev,
+    .swiper-button-next {
+
+    }
+
+
+
+
+    /* Features section */
+    #features .margin-top-up {
+
+    }
+
+    #features .features-middle {
+
+
+    }
+
+    .features-img {
+
+    }
+
+    .features-img img {
+
+    }
+
+
+    /* Contact Section */
+
+    #contact .form-control {
+
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .navbar .navbar-brand img {
+
+    }
+
+
+    .counter-section .single-counter:nth-child(2):after {
+
+    }
+}
