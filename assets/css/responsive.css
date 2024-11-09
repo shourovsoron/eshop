@@ -1,7 +1,7 @@
 @media (max-width: 1030px) {
 
-    .hero-section .home-banner-1,
-    .hero-section .home-banner-2 {
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2  {
         min-height: 550px;
         background-position: 65% center;
 
@@ -63,7 +63,7 @@
         font-weight: 600;
 
     }
-    
+
     #testimonial #carouselExampleIndicators2 .carousel-control-next {
         right: -4rem;
 
@@ -83,12 +83,17 @@
 
 @media (max-width: 767px) {
 
-    .hero-section .home-banner-1,
-    .hero-section .home-banner-2 {
-        min-height: 450px;
+
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 650px;
         background-position: 50% center;
+        position: relative;
 
     }
+
 
     .home-banner .home-banner-text {
         text-align: center;
@@ -151,9 +156,23 @@
 
 @media (max-width: 576px) {
 
-    /* .home-banner .home-banner-text h1{
+
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 650px;
+        background-position: 55% center;
+        position: relative;
+
+    }
+
+
+
+    .home-banner .home-banner-text h1 {
         font-size: 3rem;
-    } */
+    }
+
     .home-banner .home-banner-text h2 {
         font-size: 1rem;
     }
@@ -191,7 +210,7 @@
     }
 
 
-    #testimonial .testimonial-wrapper{
+    #testimonial .testimonial-wrapper {
         box-shadow: 0 0 0.563rem 0 rgb(0 0 0 / 5%);
         background: var(--text-white);
         margin: 10px 0px;
@@ -203,18 +222,18 @@
         -ms-border-radius: 0.63rem;
         -o-border-radius: 0.63rem;
     }
-    
-
-    
-#testimonial #carouselExampleIndicators2 .carousel-control-next-icon,
-
-#testimonial #carouselExampleIndicators2 .carousel-control-prev-icon{
-    background: transparent;
-    color: transparent;
-    display: none;
 
 
-}
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-next-icon,
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-prev-icon {
+        background: transparent;
+        color: transparent;
+        display: none;
+
+
+    }
 
 
 
