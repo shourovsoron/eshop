@@ -29,6 +29,22 @@
 
 
 @media (max-width: 991px) {
+
+    header .navbar-toggler{
+
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    header .navbar-toggler-icon {
+        width: unset;
+        height: unset;
+        background: transparent;
+
+    }
+
+
     .home-banner .home-banner-text {
         transform: translate(-66%, -50%);
         -webkit-transform: translate(-66%, -50%);
